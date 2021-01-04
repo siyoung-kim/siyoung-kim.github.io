@@ -3,30 +3,88 @@
 <head>
 	<title>Words</title>
 
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <link rel="stylesheet" href="style.css">
+            
+
 	<style type="text/css">
 
-    #content {width: 1000px;}
-    .align-left { float: left; }
-    .align-right { float: right; }
+		@import url("https://themes.googleusercontent.com/fonts/css?kit=RFda8w1V0eDZheqfcyQ4EPesZW2xOQ-xsNqO47m55DA");
 
-    #HASH {
-	  display: flex;
-	  justify-content: space-between;
-	}
+	    #content {width: 1000px;}
+	    .align-left { float: left; }
+	    .align-right { float: right; }
+
+	    #HASH {
+	 		display: flex;
+	  		justify-content: space-between;
+		}
+
+		.c0 {
+			font-size: 100pt;
+			font-family: "Merriweather";
+		}
+
+		.c1 {
+		    padding-bottom: 6pt;
+		    padding-left: 75pt;
+		    line-height: 1.15;
+		    page-break-after: avoid;
+		    orphans: 2;
+		    widows: 2;
+		    text-align: left;
+         }
+         .c2 {
+            color: #000000;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 20pt;
+            font-style: normal;
+            font-weight: 500;
+            font-family: "Merriweather"
+        }
 
 	</style>
 
 </head>
 <body>
 
-
 	<div id="HASH" class="blue-msg">
 
-		<img id="time-HASH" src="images/general/thinking-face-words.jpg" alt="description of your image" width=450px />
+		<img id="time-HASH" src="images/general/thinking-face-words.jpg" width=400px style="padding: 75px"/>
 
-	    <img class="ios-circle" src="images/general/menu-face.jpeg" alt="description of your image" width=75px height=75px />
+	    <img class="ios-circle" src="images/general/menu-face.jpeg" width=75px height=75px style="padding: 75px"/>
 
 	</div>
 
+	<!-- <p class="c9 title" id="h.ei00tfsinj3h"><span class="c5 c25">2020: a year in media</span></p> -->
+
+	<h1 class="c1" id="books"><span class="c2">Books and short stories</span></h1>
+
 </body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+
+<script>
+	//Get the button
+	var mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	    mybutton.style.display = "block";
+	  } else {
+	    mybutton.style.display = "none";
+	  }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+</script>
+
 </html>
