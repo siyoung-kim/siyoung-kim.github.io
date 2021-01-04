@@ -83,8 +83,59 @@ function topFunction() {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-/*========================================================================*/
-/*
-.flip-horizontally {
-  transform: scaleX(-1);
-}*/
+/*======================================================================*/
+
+/* Dropdown Button */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-size: 12pt;
+  font-family: "Merriweather";
+  color: black;
+  padding: 9px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-img {
+  width: 75px;
+  height: 75px;
+  border: outset;
+}
+
+/*======================================================================*/
+
+#content {width: 1000px;}
+      .align-left { float: left; }
+      .align-right { float: right; }
+
+#HASH {
+      display: flex;
+      justify-content: space-between;
+}
+
+/*======================================================================*/
+
