@@ -89,6 +89,7 @@ function topFunction() {
 .dropdown {
   position: relative;
   display: inline-block;
+  padding: 100px 50px 0px 0px
 }
 
 .dropdown-content {
@@ -97,6 +98,7 @@ function topFunction() {
   background-color: #f9f9f9;
   min-width: 75px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding-right: 50px;
   z-index: 1;
   right: 0;
 }
