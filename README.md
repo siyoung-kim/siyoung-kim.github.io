@@ -1,15 +1,28 @@
 # Personal Website and Blog
 
-[Markdown Reference](https://commonmark.org/help/)
+:)
+
 
 # Reminders for myself
 
-* Apply new design
-* Ensure everything is tablet and mobile friendly
-* Make words.html mobile friendly
-* Partition thinking face and the words in words and indexver2, add homepage hyperlink to thinking face
-* Standardize blog post html format and then reformat non-standardized all posts (e.g. tuesday, 2020)?
-* Automate blog post -> title + date + sneak peek for words.html aka blog post listing
+- Ensure everything is tablet and mobile friendly (ugh Chrome)
+- Standardize blog post format and then reformat non-standardized all posts (e.g. tuesday, 2020)?
+- Automate blog post -> title + date + sneak peek for words.html aka blog post listing
+- Improve dropdown menu or just do a regular menu below the header
+- Comments section -> google-doc-like?
+- Contact me thing, newsletter thing?
+- Add twitter and github icon links to bottom of page, delete github from menu
 
-* Resume page
-* Classwork / Academics page?
+# Pages to add (order of priority)
+- Academics page
+  - Classwork
+  - Research
+- Projects
+  - This website (i.e. previous drafts, site evolution tracking)
+  - Translations
+- Random
+  - ???
+- Resume
+  - Interactive?
+
+[Markdown Reference](https://commonmark.org/help/)
